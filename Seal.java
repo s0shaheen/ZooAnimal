@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Seal extends Animal
+public class Seal extends Animal implements Fun
 {
     public Seal() {}
     
@@ -15,5 +15,9 @@ public class Seal extends Animal
     
     public String toString() {
         return "Seal barks ";
+    }
+    
+    public String play() {
+        return "The seal bounces a ball off its nose.";
     }
 }
